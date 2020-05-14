@@ -1,0 +1,124 @@
+html{
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(118,0,190);
+    background: radial-gradient(circle, rgba(118,0,190,1) 0%, rgba(148,187,233,1) 100%);
+    font: normal 15pt Arial;
+    height: 100%;
+}
+
+header{
+    margin-top: 40px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+
+}
+body:nth-child(n+2){
+    grid-row: 2;
+    align-items: center;
+    justify-items: center;
+}
+
+section{
+    grid-row:3;
+    grid-column: 1/4;
+    display: flex;
+    /* background: black; */
+    border-radius: 10px;
+    padding: 20px;
+    width: 532px;
+    margin: 50px;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: rgba(65, 65, 62, 0.706);
+    /* background-image: url("/home/felippe/Área de Trabalho/Engenharia_Software3/Modelo"); */
+    z-index: 0;
+}.botoes{
+    margin: 150px 0 0 0 ;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+button{
+    background: none;
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+button:focus{
+    border: none;
+    outline: 0;
+}
+#botao_urso{
+    background-image: url("/Urso.png");
+    
+}
+#botao_leao{
+    background-image: url("/Leao.png");
+}
+
+#git {
+    width: 90px;
+    height: 90px;
+}
+
+#mgit {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    color: white;
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+    font-style: italic;
+}
+.links:hover{
+    color: white;
+    
+}
+
+.botao-fora {
+    background: rgba(65, 65, 62, 0.706);
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+    color: white;
+    height: 46px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    width: 100%;
+    justify-self: self-end;
+    background-color: rgba(0,0,0,0.7) ;
+    align-self: flex-end;
+    grid-row: 4;
+    grid-column: 1/4;
+}
+footer p{
+    
+    color: rgb(0, 0, 0);
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+    font-style: italic;
+}
+
+----------------------------------------------------------------
+
+
+
