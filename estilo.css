@@ -1,5 +1,6 @@
 html{
-    height: 100%;
+    height: auto;
+    width: 100%;
 }
 body {
     display: flex;
@@ -11,10 +12,12 @@ body {
 }
 
 header{
-    margin-top: 40px;
     color: rgb(7, 7, 7);
     text-align: center;
-
+    width: 100%;
+}
+header img{
+    width: 100%;
 }
 body:nth-child(n+2){
     grid-row: 2;
@@ -23,20 +26,18 @@ body:nth-child(n+2){
 }
 
 section{
-    grid-row:3;
-    grid-column: 1/4;
+
     display: flex;
     /* background: black; */
     border-radius: 10px;
     padding: 20px;
     width: 532px;
-    margin: 50px;
+    margin: 50px 0px 200px 0px;
     box-shadow: 5px 5px 10px black;
     display: flex;
     align-items: center; 
     justify-content: center;
     background-color: rgba(65, 65, 62, 0.706);
-    /* background-image: url("/home/felippe/Área de Trabalho/Engenharia_Software3/Modelo"); */
     z-index: 0;
 }.botoes{
     margin: 150px 0 0 0 ;
@@ -100,8 +101,6 @@ button:focus{
 
 footer{
     display: flex;
-    position: absolute;
-    bottom: 0px;
     padding: 20px;
     width: 100%;
     justify-self: self-end;
