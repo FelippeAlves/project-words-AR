@@ -60,11 +60,11 @@ button:focus{
     outline: 0;
 }
 #botao_urso{
-    background-image: url("/Urso.png");
+    background-image: url("../img/Urso.png");
     
 }
 #botao_leao{
-    background-image: url("/Leao.png");
+    background-image: url("../img/Leao.png");
 }
 
 #git {
