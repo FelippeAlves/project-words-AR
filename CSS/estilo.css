@@ -5,8 +5,8 @@ html{
 body {
     display: flex;
     flex-direction: column;
-    background: rgb(118,0,190);
-    background: radial-gradient(circle, rgba(118,0,190,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(140,133,246);
+background: linear-gradient(40deg, rgba(140,133,246,1) 0%, rgba(116,116,254,1) 58%, rgba(0,212,255,1) 100%);
     font: normal 15pt Arial;
     height: 100%;
 }
@@ -59,6 +59,10 @@ button:focus{
     border: none;
     outline: 0;
 }
+button:hover{
+    transform: scale(1.2);
+
+}
 #botao_urso{
     background-image: url("../img/Urso.png");
     
@@ -66,7 +70,12 @@ button:focus{
 #botao_leao{
     background-image: url("../img/Leao.png");
 }
-
+#botao_girafa{
+    background-image: url("../img/Girafa.png");
+}
+#botao_elefante{
+    background-image: url("../img/Elefante.png");
+}
 #git {
     width: 90px;
     height: 90px;
